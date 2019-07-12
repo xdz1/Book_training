@@ -1,0 +1,207 @@
+body {
+	font-size: 10pt;
+	color: #404040;
+}
+
+.nav {
+   font-size: 14px;
+   height: 120px;
+   width: 100%;
+   border-bottom: 4px solid #e63333;
+}
+.nav_welcome{
+	float: left;
+	line-height: 30px;
+	margin-left: 50%;
+}
+.nav_ul{
+	background-color: #f9f9f9;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.nav_ul a {
+	color: #0d0707;
+	margin-right: 10px;
+}
+.nav_ul ul {
+    list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.nav_ul ul li{
+    float:left;
+	border-right-width: 1px ;
+	border-right-style: solid;
+	border-right-color: #e0dbdb;
+	margin: 0 10px 0 10px;
+	height: 30px;
+}
+.nav_ul ul li a:link,a:visited{
+	text-decoration:none;
+}
+.nav_ul ul li a:hover{
+	color:#f03;
+}
+.logo{
+	margin-top:3px;
+	margin-left: 50px;
+	float: left;	
+}
+.nav_span{
+	float: left;
+	color: #e63333;
+	font-size: 30px;
+	margin-top: 34px;
+	font-weight:bold; 
+}
+
+
+
+
+
+
+
+
+
+
+.pay{
+	position: relative;
+	top: 70px;
+	left: 250px;
+}
+.pay_box {
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    margin: 20px 0 0 45px;
+    width: 875px;
+}
+..payment_table {
+    width: 915px;
+    text-align: center;
+    line-height: 16px;
+    margin: 10px 0 0 20px;
+    display: inline-block;
+}
+.payment_table td {
+    width: 142px;
+    padding: 0 50px 10px 0;
+    vertical-align: top;
+}
+.payment_table td a.current {
+    border: 2px solid #ff6565;
+    margin: -1px -1px 4px;
+    position: relative;
+}
+
+
+.payment_table td a.current span {
+	width: 18px;
+    height: 18px;
+    background: url(/Book_training/images/choosen.png) 0 0 no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: block;
+}
+.payment_table td a span.hot {
+    background: url(/Book_training/images/hot_bg.png) 0 0 no-repeat;
+	text-align: center;
+	color: #fff;
+	position:absolute;
+	line-height: 16px;
+	height: 16px;
+	width: 34px;
+	right: auto;
+	bottom: auto;
+	left: -15px;
+	top: -8px;
+	display: block;
+	font-family: Simsun;
+}
+.payment_table td a {
+    border: 1px solid #eaeaea;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+
+
+.current {
+    border: 2px solid #ff6565;
+    margin: -1px -1px 4px;
+    position: relative;
+}
+.divContent {
+	width: 880px;
+	height: 70px;
+	background-color: #efeae5;
+	margin-left: 50px;
+	line-height: 70px;
+	color: #404040;
+	border: 5px solid #efeae5;
+}
+
+
+
+.divText {
+	font-size: 15px;
+	font-weight: 900;
+	margin: 20px;
+}
+
+.spanPrice {
+	font-weight: 900;
+	font-family: 黑体;
+	margin-left: 30px;
+}
+
+.spanOid {
+	font-size: 13px;
+	color: #878787;
+	font-family: Arial;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 15pt;
+}
+
+img {
+	margin-right: 25px;
+}
+
+.linkNext {
+	background: url(/Book_training/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -35px;
+	height: 40px;
+	width: 190px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 900;
+	color: #ffffff;
+	line-height: 40px;
+	font-family: 黑体;
+}
+
+.linkNext:HOVER {
+	background: url(/Book_training/images/icon2.png) no-repeat;
+	display: inline-block;
+	background-position: 0 -75px;
+	height: 40px;
+	width: 190px;
+	poorfish: expression(this.onclick = function jiesuan(){return true});
+}

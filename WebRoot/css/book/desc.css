@@ -1,0 +1,238 @@
+@charset "UTF-8";
+.main {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	margin-top: 80px;
+}
+.product {
+	width: 100%;
+	height: 800px;
+	margin-top: 50px;
+}
+
+.product-inner {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.product-title {
+	font-weight: 400;
+	color: #585858;
+	margin: 0;
+	font-size: 20px;
+	text-align: left;
+	word-break: break-word;
+}
+
+.Mall {
+	margin-top: 30px;
+	line-height: 42px;
+	text-align: left;
+	position: relative;
+	word-break: normal;
+	word-wrap: break-word;
+	height: 42px;
+}
+
+.Discount {
+	height: 60px;
+	padding-left: 75px;
+	padding-top: 20px;
+	color: #666;
+}
+
+.coupon {
+	background: url(/Book_training/images/vbg01.png);
+	cursor: pointer;
+	display: inline-block;
+	width: 42px;
+	height: 25px;
+	background-position: -1298px -967.5px;
+	line-height: 30px;
+	margin-left: 15px;
+}
+
+.pdDetailcouponMessage {
+	font-size: 12px;
+	display: inline-block;
+	height: 30px;
+	vertical-align: text-bottom;
+	padding-top: 8px;
+}
+
+.Sales-volume {
+	height: 114px;
+	width: 500px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	height: 72px;
+	position: relative;
+	margin: 20px 0px 0px 60px;
+	min-width: 350px;
+	color: #666;
+}
+
+.number {
+	width: 545px;
+	height: 46px;
+	color: #666;
+	margin-top: 30px;
+	position: relative;
+}
+
+.number input {
+	width: 45px;
+	height: 30px;
+	line-height: 30px;
+	border-color: #eee;
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #8f8f8f;
+	margin-left: 25px;
+}
+
+.number-icon {
+	height: 40px;
+	width: 28px;
+	overflow: hidden;
+	float: left;
+	margin-left: 7px;
+	margin-right: 14px;
+	position: absolute;
+	left: 185px;
+	top: -4px;
+}
+
+.icon1 {
+	background: url(/Book_training/images/vbg01.png) -625px -974px no-repeat;
+	border: 1px solid #eee;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.icon2 {
+	background: url(/Book_training/images/vbg01.png) -591px -1005px no-repeat;
+	border: 1px solid #eee;
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.btn {
+	width: 500px;
+	height: 55px;
+	color: #ffc001;
+	
+	margin-top: 30px;
+	margin-left: 10px;
+	line-height: 55px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.cart1 {
+	width: 202px;
+	height: 55px;
+	background: url(/Book_training/images/icon_cart.png) 20px 10px no-repeat #ff2832;
+	float: left;
+	margin-left: 35px;
+	
+}
+.purchase {
+	margin-left: 21px;
+	background:#ff2832;
+	width: 199px;
+	height: 55px;
+	float: left;
+}
+
+.product-details {
+	width: 160px;
+	height: 57px;
+	border-top: 2px solid #FF0001;
+	font-size: 20px;
+	line-height: 57px;
+	background: #FFFFFF;
+	border-right: #EEEEEE;
+	color: #FF0000;
+}
+.product-parameter{
+	width: 100%;
+	height: 117px;
+}
+.product-parameter table{
+	width: 100%;
+	height: 117px;
+}
+.f-row{
+	height: 56px;
+}
+.f-name {
+    background-color: #f8f8f8;
+    width: 10.4%;
+    padding-right: 15px;
+    overflow: hidden;
+    text-align: right;
+	border: 1px solid #efefef;
+}
+.f-value {
+    width: 38.6%;
+    padding: 19px 15px;
+    overflow: hidden;
+	border: 1px solid #efefef;
+}
+
+.footer{
+	border-top: 1px solid #ebebeb;
+	width: 100%;
+	padding: 17px 0 50px;
+	float:right;
+	height: 150px;
+	position: relative;
+	top:400px;
+}
+.footer a, .footer{
+    color: #8c8c8c;
+    font-size: 12px;
+    text-decoration: none;
+}
+.footer_nav{
+	text-align: center;
+	line-height: 20px;
+	padding-bottom: 17px;
+	padding-top: 25px;
+	color: #8c8c8c;
+    font-size: 12px;
+}
+.sep{
+	margin: 0 20px 0 20px;
+}
+.footer_coy{
+	line-height: 20px;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+}
+.footer_coy span{
+	display: inline-block;
+}
+.footer_copyright{
+	line-height: 20px;
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+}
+a:hover {
+	color: #e63333;
+}

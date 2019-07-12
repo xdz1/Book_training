@@ -1,0 +1,178 @@
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 0;
+}
+.head{
+   width: 100%;
+   height: 200px;
+   position: relative;
+}
+.head a:hover{
+   color: #f00;	
+}
+.tools{
+	width: 100%;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #f2f2f2;
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+	z-index: 10010;
+}
+.nav {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	height: 34px;
+}
+.tools ul{
+    float: right;
+    padding-top: 2px;
+}
+.tools ul li{
+	float: left;
+	height: 22px;
+	padding-top: 4px;
+	line-height: 21px;
+	position: relative;
+	background: url(/Book_training/images/head_sprite.png) no-repeat left -285px;
+	z-index: 100;
+}
+.tools ul li a {
+    display: block;
+    position: relative;
+    line-height: 21px;
+    padding: 0 7px 0 8px;
+    color: #000;
+}
+
+.logo_line {
+    height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo_line .logo {
+    overflow: hidden;
+    width: 362px;
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ .logo_line .search {
+    position: absolute;
+    margin-top: 20px;
+    height: 48px;
+    z-index: 9999;
+    left: 362px;
+    top: 10px;
+
+}
+.logo_line .search form {
+    display: block;
+    height: 50px;
+}
+.logo_line .search input {
+  width: 400px;
+  height: 38px;
+  padding-left: 10px;
+  border: 2px solid #e63333;
+  border-radius: 5px;
+  outline: none;
+  color: #9E9C9C;
+}
+.logo_line .search  button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 38px;
+  border: none;
+  background: #e63333;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.logo_line .search button:before {
+	content: "\f002";
+  font-family: FontAwesome; 
+  font-size: 16px;
+  color: #F9F0DA;
+}
+.logo_line .search_bootom{
+    position: absolute;
+    top: 85px;
+    left: 362px;
+    color: #969696;
+    width: 585px;
+    line-height: 20px;
+    z-index: 6666;
+    
+}
+
+.logo_line .search_hot{
+	float: left;
+	width: 518px;
+	overflow: hidden;
+	height: 20px;
+}
+.logo_line .search_bootom a{
+    color: #969696;
+    margin-right: 15px;
+    _display: inline;
+    height: 20px;
+    overflow: hidden;
+}
+.logo_line .search_bootom a:hover{
+	color: #f00;
+}
+.logo_line .cart{
+	width: 107px;
+	border-color: #ff2832;
+	background: url(/Book_training/images/icon_cart.png) 5px 0 no-repeat #ff2832;
+	height: 36px;
+	position: absolute;
+	top: 30px;
+	right: 85px;
+}
+.logo_line .cart a {
+    padding-left: 35px;
+    width: 72px;
+    display: inline-block;
+    color: #fff;
+    font: 14px/36px "Microsoft Yahei";
+}
+.logo_line .order{
+    width: 86px;
+	padding: 0;
+	text-align: center;
+	border-left: 0;
+	background-color: #f6f6f6;
+	height: 36px;
+	position: absolute;
+	top: 29px;
+	right: 0;
+	font: 14px/36px "Microsoft Yahei";
+	color: #646464;
+	border: 1px solid #dcdcdc;
+}
+.logo_line .order a {
+    display: inline-block;
+    width: 86px;
+    color: #646464;
+}
+.logo_line .cart a b, .logo_line .order a b {
+    color: #fff;
+    padding-left: 3px;
+    font-family: Arial;
+    font-weight: bold;
+}
+ul::after, .fbox::after, .clearfix::after {
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}

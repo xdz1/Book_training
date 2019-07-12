@@ -1,0 +1,208 @@
+
+.nav {
+   font-size: 14px;
+   height: 120px;
+   width: 100%;
+   border-bottom: 4px solid #e63333;
+}
+.nav_welcome{
+	float: left;
+	line-height: 30px;
+	margin-left: 50%;
+}
+.nav_ul{
+	background-color: #f9f9f9;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #f2f2f2;
+	color: #0d0707;
+}
+.nav_ul ul {
+    list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+.nav_ul ul li{
+    float:left;
+	border-right-width: 1px ;
+	border-right-style: solid;
+	border-right-color: #e0dbdb;
+	margin: 0 10px 0 10px;
+	height: 30px;
+}
+.nav_ul ul li a:link,a:visited{
+	text-decoration:none;
+	margin-right: 10px;
+	color: #000;
+}
+.nav_ul ul li a:hover{
+	color:#f03;
+}
+.logo{
+	margin-top:3px;
+	margin-left: 50px;
+	float: left;	
+}
+.nav_span{
+	float: left;
+	color: #e63333;
+	font-size: 30px;
+	margin-top: 34px;
+	font-weight:bold; 
+}
+
+.empty {
+    padding: 90px 0 0 495px;
+    background: url(/Book_training/images/empty.png) 90px 46px no-repeat;
+    height: 190px;
+    margin:60px 0 0 340px;
+}
+.empty p {
+    font-size: 14px;
+    color: #8a8888;
+}
+.empty a.btn {
+    width: 116px;
+    height: 38px;
+    display: inline-block;
+    background-color: #ff2832;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    margin: 30px 20px 0 0;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+.cartlist{
+	position: relative;
+	top: 100px;
+	left: 8.3%;
+	width: 83.4%;
+	height: auto;
+	
+}
+
+table {
+	font-size: 10pt;
+	border-color: #efeae5;
+	border-style: solid;
+	border-width: 5px;
+	color: #404040;
+
+}
+td {
+	border-color: #efeae5;
+	border-style: solid;
+	border-width: 0;
+	border-bottom-width: 1px;
+	padding: 10px;
+}
+.jiesuan {
+	background: url(/Book_training/images/jiesuan.png) no-repeat;
+	display: inline-block;
+	height: 48px;
+	width: 145px;
+	margin: 0;
+}
+.kill {
+	background: url(/Book_training/images/jiesuan1.png) no-repeat;
+	display: inline-block;
+	height: 48px;
+	width: 145px;
+	margin: 0;
+}
+.jian:HOVER {
+	background: url(/Book_training/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: -166px -125px;
+	height: 11px;
+	width: 11px;
+	margin: 0;
+}
+.jian {
+	background: url(/Book_training/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: -166px -145px;
+	height: 11px;
+	width: 11px;
+	margin: 0;
+}
+.jia:HOVER {
+	background: url(/Book_training/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: -178px -125px;
+	height: 11px;
+	width: 11px;
+	margin: 0;
+}
+.jia {
+	background: url(/Book_training/images/icon.png) no-repeat;
+	display: inline-block;
+	background-position: -178px -145px;
+	height: 11px;
+	width: 11px;
+	margin: 0;
+}
+
+.quantity {
+	width: 37.6px;
+	height:28px;
+	text-align: center;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color:#FF6600;
+	text-decoration: underline;
+}
+a.linkImage {
+	border: 1px solid #ffffff;
+	display: inline-block;
+}
+a.linkImage:HOVER {
+	border: 1px solid #d0d0d0;
+	display: inline-block;
+}
+a.linkImage:active {
+	border: 1px dotted #404040;
+	display: inline-block;
+}
+.price_n {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 15pt;
+}
+.spanEmpty {
+	margin-top: 50px;
+	font-size: 24px;
+	font-weight: 900;
+}
+.tdBatchDelete {
+	border-top-width: 5px;
+	border-bottom-width:0px;
+}
+.tdTotal {
+	border-top-width: 5px;
+}

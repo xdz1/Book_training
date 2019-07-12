@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.gjBody{
+	border: 2px solid #dfdfdf;
+	width: 1000px;
+	height: 600px;
+	position: relative;
+	top: 200px;
+	left: 290px;
+}
+
+.line_box {
+    width: 876px;
+    height: 1px;
+    line-height: 0;
+    font-size: 0;
+    margin: 5px auto 0;
+    border-bottom: 2px solid #e4e4e4;
+    position: relative;
+    top: 55px;
+}
+.box1{
+	position: absolute;
+	top: 20px;
+
+	width: 100%;
+	line-height: 25px;
+}
+.box2{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+
+}
+.box3{
+	position: absolute;
+	top: 280px;
+	width: 100%;
+
+}
+
+.gjBody h4{
+    display: inline-block;
+    width: 108px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #e4faf5;
+    color: #404040;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    float: left;
+    margin-right: 12px;
+    overflow: hidden;
+}
+.box1 label {
+    display: inline-block;
+    width: 82px;
+    float: left;
+  
+}
+.gjBody label,p{
+	  font-size: 16px;
+}
+.line_box1 {
+    width: 876px;
+    height: 1px;
+    line-height: 0;
+    font-size: 0;
+    margin: 5px auto 0;
+    border-bottom: 2px solid #e4e4e4;
+    position: relative;
+    top: 245px;
+}
+
+.box1 input {
+    margin-left: 6px;
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.box .detail_condition {
+    float: left;
+    width: 160px;
+    color: #696969;
+}
+
+ .box2 label {
+    display: inline-block;
+    width: 740px;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    float: none;
+}
+.box2 label span {
+    display: inline-block;
+    width: 55px;
+    text-align: right;
+    margin-right: 20px;
+    float: left;
+}
+.box2 label input {
+    width: 233px;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    color: #696969;
+    float: left;
+}
+.box3 .other{
+	width: 340px;
+	
+	float: left;
+	margin-left: 130px;
+}
+.box3 .other p{
+    margin-top: 20px;
+}
+
+.box3 .other span{
+	margin: 0 15px 20px 10px;
+	}
+
+.box3 .other select{
+	width: 90px;
+	height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    color: #696969;
+    margin-left: 10px;
+}
